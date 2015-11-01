@@ -21,3 +21,7 @@ def index():
 @app.route('/time')
 def time():
     return str(datetime.now())
+
+@app.route('/hello')
+def hello():
+    return "hello,welcome"
